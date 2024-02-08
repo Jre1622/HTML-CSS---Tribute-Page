@@ -1,3 +1,11 @@
+:root {
+	--carthage-red: #b22222; /* Firebrick */
+	--carthage-gold: #ffd700; /* Gold */
+	--carthage-bronze: #cd7f32; /* Bronze */
+	--carthage-dark-red: #8b0000; /* Dark Red */
+	--carthage-dark-gold: #daa520; /* Goldenrod */
+}
+
 .flex-container {
 	display: flex;
 }
@@ -13,4 +21,14 @@
 .flex-container img {
 	width: 100%;
 	object-fit: cover;
+}
+
+body {
+	background-color: var(--carthage-red);
+}
+
+h1,
+h3 {
+	text-align: center;
+	background-color: var(--carthage-gold);
 }
