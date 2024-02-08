@@ -50,6 +50,14 @@ ul strong {
 	color: var(--carthage-gold);
 }
 
+li {
+	margin: 0.5rem;
+}
+
+li span {
+	color: var(--carthage-gold);
+}
+
 @media (min-width: 1200px) {
 	* {
 		font-size: 1.15rem;
