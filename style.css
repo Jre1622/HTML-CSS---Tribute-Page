@@ -12,6 +12,7 @@
 
 .flex-container header {
 	flex: 1;
+	margin-right: 1rem;
 }
 
 .flex-container main {
@@ -31,4 +32,32 @@ h1,
 h3 {
 	text-align: center;
 	background-color: var(--carthage-gold);
+}
+
+h2 {
+	color: var(--carthage-gold);
+}
+
+p {
+	color: var(--carthage-dark-gold);
+}
+
+ul {
+	color: var(--carthage-dark-gold);
+}
+
+ul strong {
+	color: var(--carthage-gold);
+}
+
+@media (min-width: 1200px) {
+	* {
+		font-size: 1.15rem;
+	}
+}
+
+@media (max-width: 550px) {
+	* {
+		font-size: 0.75rem;
+	}
 }
