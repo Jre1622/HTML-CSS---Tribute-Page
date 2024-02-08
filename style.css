@@ -27,6 +27,11 @@
 
 body {
 	background-color: var(--carthage-red);
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+	font-size: 1.75rem;
 }
 
 h1,
@@ -65,7 +70,7 @@ li span {
 	}
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
 	* {
 		font-size: 0.75rem;
 	}
